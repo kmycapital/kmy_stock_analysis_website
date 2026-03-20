@@ -26,16 +26,9 @@ streamlit run nvda_alpha_complete.py
 
 Opens at http://localhost:8501
 
-## Deploy free on Streamlit Cloud (gets you a public URL)
+## Deployed website on Streamlit Cloud
 
-1. Create free account at https://github.com
-2. Create new repo, upload both files (`nvda_alpha_complete.py` + `requirements.txt`)
-3. Go to https://share.streamlit.io
-4. Click **New app** → connect GitHub → select this repo
-5. Main file: `nvda_alpha_complete.py`
-6. Click **Deploy**
-
-Your URL will be: `https://your-app-name.streamlit.app`
+[https://your-app-name.streamlit.app`](https://kmycapital.streamlit.app/)
 
 Data auto-refreshes every 24 hours. Force refresh via the sidebar button.
 
