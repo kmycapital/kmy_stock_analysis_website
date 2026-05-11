@@ -135,7 +135,7 @@ def compute_signals(df, lb, sk, maw):
     s["mom_raw"] = s["Close"].shift(sk)/s["Close"].shift(lb)-1
     s["mom_z"]   = zscore(s["mom_raw"])
     s["vol_ma20"]= s["Volume"].rolling(20).mean()
-    m = s.resample("M").last()
+    m = s.resample("ME").last()
     m["fwd_ret_1m"] = m["Close"].pct_change().shift(-1)
     return s, m
 
