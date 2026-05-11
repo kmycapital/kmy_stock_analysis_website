@@ -19,7 +19,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime
 
-st.set_page_config(page_title="KMY Research", page_icon="kmy_logo.png",
+st.set_page_config(page_title="KMY Research Terminal", page_icon="kmy_logo.png",
                    layout="wide", initial_sidebar_state="expanded")
 
 st.markdown("""<style>
